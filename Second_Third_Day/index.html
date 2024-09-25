@@ -1,1 +1,257 @@
 
+ day 2
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Day...2</title>
+  <style>
+    dt{
+        background-color:grey;
+        color:  white;
+        margin-bottom:20px;
+        font-weight: bold;
+        font-size:20px; 
+        position:sticky;
+        top: 0px;
+
+    }
+    dd{
+      background-color:yellow;
+    }
+    /*dl{
+      display:  grid;
+      grid-template-columns:3fr 9fr; 
+    }*/
+  </style>
+</head>
+<body>
+    <h2>Product Details</h2>
+    <dl>
+      <dt>Name</dt>
+      <dd>Samsung</dd>
+      <dt>Price</dt>
+      <dd>50000.00₨</dd>
+      <dt>Stock</dt>
+      <dd>Avilable</dd>
+    </dl>
+    <h1>Select Category</h1>
+    <details>
+      <summary>Electric Products</summary>
+      <dd>Laptop</dd>
+      <dd>Mobile</dd>
+      <dd>Earbuds</dd>
+    </details>
+    <fieldset>
+      <legend>Basic Details..</legend>
+      <dl>
+      <dt>Name</dt>
+      <dd>Samsung</dd>
+      <dt>Price</dt>
+      <dd>50000.00₨</dd>
+
+      </dl>
+    </fieldset>
+    <fieldset>
+      <legend>Shipping Details..</legend>
+      <dl>
+       <dt>Stock</dt>
+      <dd>Avilable</dd>
+      <dt>Ship To</dt>
+      <dd>Delhi, Hyderabad</dd>
+      <dt>Vendor</dt>
+      <dd>Digital Pvt Limited</dd>
+    </dl>
+    </fieldset>
+    <h1>Web Technology</h1>
+    <dl>
+      <dt>Html</dt>
+      <dd>Intoduction</dd>
+      <dd>Heading</dd>
+      <dd>Paragraph</dd>
+      <dd>Semantic Tag</dd>
+      <dd>Div Tag</dd>
+      <dd>Span Tag</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Embbeded Element</dd>
+      <dd>Audio</dd>
+      <dd>Image</dd>
+      <dd>Video</dd>
+    </dl>
+    <dl>
+      <dt>CSS</dt>
+      <dd>Intoduction</dd>
+      <dd>Heading</dd>
+      <dd>Paragraph</dd>
+      <dd>Semantic Tag</dd>
+      <dd>Div Tag</dd>
+      <dd>Span Tag</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Embbeded Element</dd>
+      <dd>Audio</dd>
+      <dd>Image</dd>
+      <dd>Video</dd>
+    </dl>
+    <dl>
+      <dt>JavaScript</dt>
+      <dd>Intoduction</dd>
+      <dd>Heading</dd>
+      <dd>Paragraph</dd>
+      <dd>Semantic Tag</dd>
+      <dd>Div Tag</dd>
+      <dd>Span Tag</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Intoduction</dd>
+      <dd>Embbeded Element</dd>
+      <dd>Audio</dd>
+      <dd>Image</dd>
+      <dd>Video</dd>
+    </dl>
+</body>
+</html> 
+
+ Day 3... Card Layout 
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Card Layout.....</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    #card{
+      width: 200px;
+      border:2px solid black;
+      box-shadow: 2px 3px 3px grey;
+      margin:15px; 
+      padding:20px; 
+    }
+    #container{
+
+      display:flex;
+      justify-content:space-evenly; 
+      flex-wrap:wrap; 
+    }
+    button{
+      background-color:tomato; 
+      width:100%;
+      font-size: 18px;
+      color:white;  
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="card">
+       <div id="card-Header">
+        <h1>JBL..</h1>
+       </div>
+        <div id="card-body">
+          <img src="assets\images2.jpeg" alt="Speaker.jpg" width="100%" height="150px">
+          <p>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-fill"></span>
+            <span class="bi bi-star-half"></span>
+          </p>
+
+          <p>&#8377;5000</p>
+        </div>
+       <div id="card-footer">
+        <button>Add To Cart</button>
+        <p>Gaurav &copy; Kumar </p>
+       </div>
+    </div>
+     <div id="card">
+       <div id="card-Header">
+        <h1>JBL..</h1>
+       </div>
+        <div id="card-body">
+          <img src="" alt="Speaker.jpg" width="100%" height="200px">
+          <p>&#8377;5000</p>
+        </div>
+       <div id="card-footer">
+        <button>Add To Cart</button>
+        <p>Gaurav &copy; Kumar </p>
+       </div>
+    </div>
+     <div id="card">
+       <div id="card-Header">
+        <h1>JBL..</h1>
+       </div>
+        <div id="card-body">
+          <img src="" alt="Speaker.jpg" width="100%" height="200px">
+          <p>&#8377;5000</p>
+        </div>
+       <div id="card-footer">
+        <button>Add To Cart</button>
+        <p>Gaurav &copy; Kumar </p>
+       </div>
+    </div>
+     <div id="card">
+       <div id="card-Header">
+        <h1>JBL..</h1>
+       </div>
+        <div id="card-body">
+          <img src="" alt="Speaker.jpg" width="100%" height="200px">
+          <p>&#8377;5000</p>
+        </div>
+       <div id="card-footer">
+        <button>Add To Cart</button>
+        <p>Gaurav &copy; Kumar </p>
+       </div>
+    </div>
+     <div id="card">
+       <div id="card-Header">
+        <h1>JBL..</h1>
+       </div>
+        <div id="card-body">
+          <img src="assets\images2.jpeg" alt="Speaker.jpg" width="100%" height="200px">
+          <p>&#8377;5000</p>
+        </div>
+       <div id="card-footer">
+        <button>Add To Cart</button>
+        <p>Gaurav &copy; Kumar </p>
+       </div>
+    </div>
+  </div>
+</body>
+</html>
