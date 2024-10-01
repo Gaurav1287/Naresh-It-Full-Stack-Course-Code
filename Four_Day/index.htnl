@@ -1,0 +1,67 @@
+
+<!-- Day 4..... -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Day 4.. Intra Document Link</title>
+  <style>
+    #container{
+      display: grid;
+      grid-template-columns:3fr 9fr;
+    }
+    #Right_side{
+      height:500px;
+      overflow:auto;  
+    }
+    #left_side
+    {
+      position:sticky;
+      top:0px; 
+    }
+  </style>
+</head>
+<body>
+   <div id="container">
+      <div id="left_side">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#electric">Electric</a></li>
+          <li><a href="#fashion">Fashion</a></li>
+          <li><a href="#footware">Footware</a></li>
+        </ul>
+      </div>
+      <div id="Right_side">
+        <h2 id="home">Home</h2>
+        <p>Your use of this software is subject to the terms and conditions of the license agreement by which you acquired this software.  If you are a volume license customer, use of this software is subject to your volume license agreement.  You may not use this software if you have not validly acquired a license for the software from Microsoft or its licensed distributors.
+       </p>
+       <p>Your use of this software is subject to the terms and conditions of the license agreement by which you acquired this software.  If you are a volume license customer, use of this software is subject to your volume license agreement.  You may not use this software if you have not validly acquired a license for the software from Microsoft or its licensed distributors.
+       </p>
+       <p>Your use of this software is subject to the terms and conditions of the license agreement by which you acquired this software.  If you are a volume license customer, use of this software is subject to your volume license agreement.  You may not use this software if you have not validly acquired a license for the software from Microsoft or its licensed distributors.
+       </p>
+       <h2 id="electric">Electric</h2>
+       <img src="assets\images2.jpeg" width="100" height="100">
+       <p>Your use of this software is subject to the terms and conditions of the license agreement by which you acquired this software.  If you are a volume license customer, use of this software is subject to your volume license agreement.  You may not use this software if you have not validly acquired a license for the software from Microsoft or its licensed distributors.
+       </p>
+       <p>Your use of this software is subject to the terms and conditions of the license agreement by which you acquired this software.  If you are a volume license customer, use of this software is subject to your volume license agreement.  You may not use this software if you have not validly acquired a license for the software from Microsoft or its licensed distributors.
+       </p>
+       <p>Your use of this software is subject to the terms and conditions of the license agreement by which you acquired this software.  If you are a volume license customer, use of this software is subject to your volume license agreement.  You may not use this software if you have not validly acquired a license for the software from Microsoft or its licensed distributors.
+       </p>
+       <h2 id="fashion">Fashion</h2>
+       <img src="assets\moti.jpeg" width="100" height="100">
+        <p>Your use of this software is subject to the terms and conditions of the license agreement by which you acquired this software.  If you are a volume license customer, use of this software is subject to your volume license agreement.  You may not use this software if you have not validly acquired a license for the software from Microsoft or its licensed distributors.
+       </p>
+       <p>Your use of this software is subject to the terms and conditions of the license agreement by which you acquired this software.  If you are a volume license customer, use of this software is subject to your volume license agreement.  You may not use this software if you have not validly acquired a license for the software from Microsoft or its licensed distributors.
+       </p>
+       <p>Your use of this software is subject to the terms and conditions of the license agreement by which you acquired this software.  If you are a volume license customer, use of this software is subject to your volume license agreement.  You may not use this software if you have not validly acquired a license for the software from Microsoft or its licensed distributors.
+       </p>
+       <h2 id="footware">Footware</h2>
+       <p>Your use of this software is subject to the terms and conditions of the license agreement by which you acquired this software.  If you are a volume license customer, use of this software is subject to your volume license agreement.  You may not use this software if you have not validly acquired a license for the software from Microsoft or its licensed distributors.
+       </p>
+       <p>Your use of this software is subject to the terms and conditions of the license agreement by which you acquired this software.  If you are a volume license customer, use of this software is subject to your volume license agreement.  You may not use this software if you have not validly acquired a license for the software from Microsoft or its licensed distributors.
+       </p>
+       <p>Your use of this software is subject to the terms and conditions of the license agreement by which you acquired this software.  If you are a volume license customer, use of this software is subject to your volume license agreement.  You may not use this software if you have not validly acquired a license for the software from Microsoft or its licensed distributors.
+      </div>
+   </div>
+</body>
+</html>
