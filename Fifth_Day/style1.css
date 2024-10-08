@@ -1,0 +1,201 @@
+
+.b1{
+	text-align:  center;
+	margin:0px; 
+	
+}
+.header
+{
+	
+	height:150px; 
+	box-shadow:0px 8px 10px grey; 
+	padding-top:2px; 
+	position:sticky;
+	top:0px; 
+	overflow:hidden;
+	background-color:white;  
+
+}
+.header a
+{
+	text-decoration:none; 
+	padding-left: 30px;
+	font-weight:  bold;
+	color:grey;
+	font-family:Arial,sans-serif; 
+}
+a:hover
+{
+	color:#2a9d8f;
+}
+
+.header h1
+{
+	color:#2a9d8f;
+
+}
+.header h3
+{
+	color: grey;
+
+}
+ .container {
+ 	    font-family: Arial, sans-serif;
+ 	     background-color:rgb(124,182,142);
+            
+            margin: 0 auto;
+            padding: 20px 0;
+            margin-top:8px; 
+
+        }
+
+      .container  h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        p { 
+            font-size: 1.2em;
+            line-height: 1.2;
+            font-weight: bold;
+            font-family:Arial,sans-serif;
+          
+        }
+        .newp{
+        	color:grey; 
+        	font-size:1.3em 
+        }
+
+        .event-details {
+            margin-top: 20px;
+            margin-bottom:100px; 
+        }
+
+        .event-details i {
+            margin-right: 5px;
+
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 1.2em;
+            color: #333;
+        }
+         .container1 {
+         	margin-top:150px; 
+
+        }
+        .container1 h1{
+        	font-weight: bold;
+            font-family: Arial, sans-serif;
+        	font-size: 30px;
+        }
+        .container1 p{
+        	font-weight: bold;
+        	font-size:25px;
+        	color: grey; 
+        }
+        .circle
+        {
+        	height:450px;
+        	width: 450px;
+        	background-color:rgb(124,182,142);
+        	border-radius: 50%;
+        	margin: 0 auto;
+        	text-align:center; 
+        	/*padding-top:100px; */
+        	margin-bottom:150px; 
+        }
+        #par
+        {
+        	padding:150px 10px 0px 10px;
+        	font-weight:bold;
+        	font-size:20px;   
+
+        }
+       .Reg {
+            margin-top: 100px;
+            width: 600px;
+           height: 1250px;
+           margin-left: 200px;
+           box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+           display: flex;
+           align-items: center;
+           justify-content: center; 
+           margin-bottom:20px; 
+        }
+
+      .regcont {
+        width: calc(100% - 80px); 
+        height: calc(100% - 80px); 
+        font-family:Arial,sans-serif; 
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   }
+
+    
+
+      .regcont  h2 {
+            color: #037a7a;
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+
+      .regcont  a {
+            color: black;
+            font-size:20px; 
+        }
+
+        
+
+        form {
+            margin-top: 20px;
+            text-align: left;
+            width:80%;
+            padding-left:50px;  
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+      
+        input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-bottom: 2px solid black;
+            border-radius: 0;
+           
+        }
+
+        input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="date"]:focus, select:focus {
+            border: 2px solid black;
+            outline: none;
+            border-radius: 5px;
+        }
+
+        .radio-group, .checkbox-group {
+            margin-bottom: 15px;
+        }
+
+        input[type="submit"] {
+            background-color:black;
+            color: #fff;
+            font-weight: bold;
+            border: none;
+            padding: 10px;
+            width: 40%;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size:20px;
+            height:40px;  
+        }
+
+    textarea
+    {
+    	 width: 100%;
+          padding: 10px;
+          margin-bottom: 15px;
+    }

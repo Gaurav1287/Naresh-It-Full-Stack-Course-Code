@@ -1,0 +1,39 @@
+header{
+	background-color:tomato;
+	font-size: 20px;
+	text-align:center;
+	font-weight:bold;
+	padding:10px;
+	color:white;    
+}
+footer{
+	background-color:black;
+	font-size:15px;
+	text-align:center;
+	font-weight:bold;
+	padding:5px;
+	color:white;      
+}
+section{
+	height:450px;
+	display:grid;
+	grid-template-columns:2fr 8fr 2fr;
+	margin-top:20px;
+	font-size:20px;    
+}
+nav div{
+	border:2px solid tomato;
+	width:120px;
+	margin-bottom:20px;
+	padding:10px;
+	color:white;
+	background-color:tomato;
+	border-radius:10px; 
+	text-align: center;
+}
+aside{
+	width:100px;
+	height:50px;
+	border:2px dotted black ; 
+	text-align: center;
+}
